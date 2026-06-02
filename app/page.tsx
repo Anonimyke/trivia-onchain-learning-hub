@@ -6,11 +6,24 @@ import GameScreen from '../components/GameScreen';
 import ResultScreen from '../components/ResultScreen';
 import { UserStats, Theme } from '../types';
 import { CHALLENGE_PAYOUTS } from '../config/economy';
+import { sdk } from "@farcaster/frame-sdk";
 
 export type GameMode = "practice" | "challenge";
 
 export default function Page() {
     const [view, setView] = useState<'home' | 'game' | 'result'>('home');
+
+    useEffect(() => {
+        const initFarcaster = async () => {
+            try {
+                await sdk.actions.ready();
+            } catch (error) {
+                console.error("Failed to initialize Farcaster SDK:", error);
+            }
+        };
+        initFarcaster();
+    }, []);
+
     const [userStats, setUserStats] = useState<UserStats>({ dailyStreak: 0, lastClaimDate: null, points: 0 });
     const [statsLoaded, setStatsLoaded] = useState(false);
     const [currentTheme, setCurrentTheme] = useState<Theme>('cultura');

@@ -1,0 +1,19 @@
+{
+  "accountAssociation": {
+    "header": "eyJmaWQiOjAsInR5cGUiOiJjdXN0b2R5Iiwia2V5IjoiMHgwIn0",
+    "payload": "eyJkb21haW4iOiJ0cml2aWEtb25jaGFpbi1sZWFybmluZy1odWIudmVyY2VsLmFwcCJ9",
+    "signature": "MHgw"
+  },
+  "miniapp": {
+    "version": "1",
+    "name": "Trivia & Onchain Learning Hub",
+    "iconUrl": "https://trivia-onchain-learning-hub.vercel.app/icon.png",
+    "homeUrl": "https://trivia-onchain-learning-hub.vercel.app",
+    "imageUrl": "https://trivia-onchain-learning-hub.vercel.app/icon.png",
+    "buttonTitle": "Play Trivia",
+    "splashImageUrl": "https://trivia-onchain-learning-hub.vercel.app/icon.png",
+    "splashBackgroundColor": "#ffffff",
+    "description": "Learn Web3, play trivia and earn rewards",
+    "primaryCategory": "education"
+  }
+}
