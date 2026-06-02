@@ -6,14 +6,14 @@
   },
   "miniapp": {
     "version": "1",
-    "name": "Trivia & Onchain Learning Hub",
+    "name": "Quiz Royale",
     "iconUrl": "https://trivia-onchain-learning-hub.vercel.app/icon.png",
     "homeUrl": "https://trivia-onchain-learning-hub.vercel.app",
     "imageUrl": "https://trivia-onchain-learning-hub.vercel.app/icon.png",
-    "buttonTitle": "Play Trivia",
+    "buttonTitle": "Play Quiz Royale",
     "splashImageUrl": "https://trivia-onchain-learning-hub.vercel.app/icon.png",
     "splashBackgroundColor": "#ffffff",
-    "description": "Learn Web3, play trivia and earn rewards",
+    "description": "Compete, climb the leaderboard and become the trivia champion.",
     "primaryCategory": "education"
   }
 }

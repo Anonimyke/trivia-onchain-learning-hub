@@ -4,8 +4,8 @@ import { LanguageProvider } from '@/context/LanguageContext';
 import LanguageSelector from '@/components/LanguageSelector';
 
 export const metadata: Metadata = {
-    title: 'Trivia & Onchain Learning Hub',
-    description: 'A casual trivia app for learning and earning.',
+    title: 'Quiz Royale',
+    description: 'Compete, climb the leaderboard and become the trivia champion.',
     other: {
         "fc:frame": JSON.stringify({
             version: "next",

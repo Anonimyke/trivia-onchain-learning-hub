@@ -1,4 +1,4 @@
-# Trivia & Onchain Learning Hub
+# Quiz Royale
 
 ## Setup
 

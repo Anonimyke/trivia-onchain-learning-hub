@@ -36,7 +36,7 @@ export type TranslationKeys =
 
 export const TRANSLATIONS: Record<Lang, Record<TranslationKeys, string>> = {
     es: {
-        "app.title": "Trivia & Onchain Learning Hub",
+        "app.title": "Quiz Royale",
         "app.subtitle": "Aprende, juega y gana (pronto en Base)",
         "home.streak": "Racha",
         "home.points": "Puntos",
@@ -70,7 +70,7 @@ export const TRANSLATIONS: Record<Lang, Record<TranslationKeys, string>> = {
         "challenge.result.home": "Volver al inicio",
     },
     en: {
-        "app.title": "Trivia & Onchain Learning Hub",
+        "app.title": "Quiz Royale",
         "app.subtitle": "Learn, play and win (coming soon on Base)",
         "home.streak": "Streak",
         "home.points": "Points",
